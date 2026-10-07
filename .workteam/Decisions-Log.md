@@ -641,3 +641,9 @@
 - Answer: APPROVE. No actionable defects. Reviewer confirmed unauthenticated decision 401, PostgreSQL 16 single-winner concurrency/no-overwrite assertions, and OBS-004 projection without duplicate AdminDecision. Review relied on supplied execution results and current files; formal Git diff unavailable. Per requester instruction to complete the requested verification, Stage 7 accepted and QA dispatched.
 - Decided by: Code Reviewer / Coordinator under requester instruction
 - Affected IDs: BE-003; ENG-AC-089, ENG-AC-093, ENG-AC-097; Stage 7 approved; Stage 8 dispatched; QA-Report.md
+
+## DEC-103
+- Question: Which harness and framework version should the workteam use going forward?
+- Answer: Continue the project in Claude Code on Agentic AI Workteam 1.0.0 (harness-agnostic release). The Copilot agent/skill files (pre-1.0 build) are removed; all approved deliverables, state, and decisions carry over unchanged. DEC-102 is referenced in Workteam-State.md but was never written to this log; it is left unfilled rather than reconstructed.
+- Decided by: Requester (Ade), 2026-10-07
+- Affected IDs: .claude/, CLAUDE.md, Constitution.md, .workteam/Project.md; no stage or task status changed
