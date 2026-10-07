@@ -26,7 +26,7 @@ Do not duplicate that skill's procedure here — apply it per task cluster.
 ## Parallel, Isolated Scanning
 
 For a multi-task plan, group tasks by area (backend module, data layer, API/integration, frontend,
-platform) and dispatch **one read-only scan per group** via `runSubagent`.
+platform) and dispatch **one read-only scan per group** via `the Task tool`.
 
 Each scan subagent must:
 
